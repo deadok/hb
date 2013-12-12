@@ -1,79 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Happy Birthday : " />
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>No Anchor Links - fullPage.js</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	
+	<link rel="stylesheet" type="text/css" href="./stylesheets/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="./stylesheets/examples.css" />
 
-    <title>Happy Birthday</title>
-  </head>
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
+	
+	<script type="text/javascript" src="./javascripts/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var pepe = $.fn.fullpage({
+				slidesColor: [
+                    '#1bbc9b',
+                    'rgb(252, 205, 135)',
+                    'rgb(255, 241, 140)',
+                    'rgb(225, 236, 252)',
+                    'rgb(223, 252, 162)',
+                    'rgb(245, 220, 220)',
+                    'rgb(163, 237, 255)',
+                    'rgb(255, 158, 166)',
+                    'rgb(255, 158, 166)',
+                ]
+			});
+		});
+	</script>
 
-  <body>
+</head>
+<body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/deadok/hb">View on GitHub</a>
+<div class="section " id="section0">
+	<h1>Some stories about</h1>
+	<p>... the 12-th of December</p>
+    <strong>⬇</strong>
+</div>
+<div class="section" id="section1">
+		<h1>Russians celebrate</h1>
+		<p>Constitution day today</p>
+        <p><img src="./images/den-konstitutsii-2013-poster.jpg"></p>
+        <strong>⬇</strong>
+</div>
+<div class="section" id="section2">
+		<h1>Kenians celebrate</h1>
+		<p>Independence day today</p>
+        <p><img src="./images/kenia23.jpg"></p>
+        <strong>⬇</strong>
+</div>
+<div class="section" id="section3">
+		<h1>Christians celebrate</h1>
+		<p>Paramon - winter forecaster day</p>
+        <p><img src="./images/winter.jpg"></p>
+        <strong>⬇</strong>
+</div>
+<div class="section" id="section4">
+		<h1>Whole world celebrate</h1>
+		<p>Ear scartching day</p>
+        <p><img src="./images/ear-massaging.jpg"></p>
+        <strong>⬇</strong>
+</div>
 
-          <h1 id="project_title">Happy Birthday</h1>
-          <h2 id="project_tagline"></h2>
+<div class="section" id="section5">
+		<h1>And the only elite know</h1>
+		<p>That today is the day when was born one cute girl</p>
+        <p><img src="./images/x_2e5db270.jpg"></p>
+        <strong>⬇</strong>
+</div>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/deadok/hb/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/deadok/hb/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+<div class="section" id="section6">
+		<h1>That become</h1>
+		<p>Most beautiful woman all over the world </p>
+        <p><img src="./images/ann.jpg"></p>
+        <strong>⬇</strong>
+</div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<div class="section" id="section7">
+		<h1>S dnem varenya!!!</h1>
+		<p>Happy happy birthday! Be brighter and happier every day!</p>
+        <p><img src="./images/baloons.jpg"><img src="./images/cake.jpg"><img src="./images/jam.jpg"></p>
+        <p>Aaaaaaaaand...</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+</div>
+<div class="section" id="section8">
+		<h1>Your present</h1>
+		<p>Is on it's way to you. But it can take up to five days to deliver it. :/</p>
+        <p><img src="./images/dogs.jpg"></p>
+        <small>The end</small>
+</div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Happy Birthday maintained by <a href="https://github.com/deadok">deadok</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+</body>
 </html>
